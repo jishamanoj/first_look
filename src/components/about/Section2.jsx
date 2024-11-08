@@ -124,9 +124,9 @@ function Section2() {
           {value.id}
         </motion.p>
         <motion.h1
-        initial={{ y: "10vw", opacity: 0 }}
-        whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.15 } }}
-        viewport={{ once: true, amount: 0.8 }}
+        // initial={{ y: "10vw", opacity: 0 }}
+        // whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.15 } }}
+        // viewport={{ once: true, amount: 0.8 }}
         className="text-[24px] sm:text-[30px] lg:text-[40px] xl:text-[54px] text-black font-semibold sm:text-center">
           {value.title}
         </motion.h1>
