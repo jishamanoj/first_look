@@ -23,7 +23,7 @@ function Section6() {
         <div className='w-full m-auto flex justify-center items-center'>
         <motion.button 
             initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.15 } }}
+            whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.3 } }}
             viewport={{ once: true, amount: 0.8 }}
         className='w-[120px] md:w-[210px] h-[40px] md:h-[60px] rounded-[40px] bg-[#FE1940] text-white text-center font-semibold text-[14px] md:text-[21px]'>
         Explore

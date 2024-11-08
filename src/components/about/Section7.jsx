@@ -10,7 +10,7 @@ function Section7() {
         whileInView={{
           y: 1,
           opacity: 1,
-          transition: { type: "spring", stiffness: 50, delay: 0.15 },
+          transition: { type: "spring", stiffness: 50, delay: 0.25 },
         }}
         viewport={{ once: true, amount: 0.8 }}
         className="text-[18px] sm:text-[20px] xl:text-[24px] 2xl:text-[36px] text-[#202020] text-center pb-6"

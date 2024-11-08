@@ -19,7 +19,7 @@ function Section4() {
         whileInView={{
           y: 1,
           opacity: 1,
-          transition: { type: "spring", stiffness: 50, delay: 0.25 },
+          transition: { type: "spring", stiffness: 50, delay: 0.15 },
         }}
         viewport={{ once: true, amount: 0.8 }}
         className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[54px] font-medium text-[#202020] sm:font-semibold sm:px-[40px] xl:px-[226px] pt-[20px] sm:pt-[20px] sm:text-center leading-[120%]"
@@ -34,6 +34,8 @@ function Section4() {
           opacity: 1,
           transition: { type: "spring", stiffness: 50, delay: 0.25 },
         }}
+        viewport={{ once: true, amount: 0.8 }}
+
       className="text-[14px] sm:text-[18px] lg:text-[26px] xl:text-[30px] text-[#202020] font-light sm:px-[40px] md:px-[150px] lg:px-[200px] xl:px-[240px]  py-[14px] xl:py-[40px] sm:text-center leading-[140%]">
         A dedicated team of tech professionals, passionately crafting an
         exceptional product and building a brand that stands out

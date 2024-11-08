@@ -68,7 +68,7 @@ function Section5() {
               whileInView={{
                 y: 1,
                 opacity: 1,
-                transition: { type: "spring", stiffness: 50, delay: 0.15 },
+                transition: { type: "spring", stiffness: 50, delay: 0.25 },
               }}
               viewport={{ once: true, amount: 0.8 }}
               className="alex-brush-regular text-[24px] lg:text-[32px] xl:text-[42px] 2xl:text-[48px] text-black pt-3 sm:pt-1 md:pt-4 lg:pt-6"
@@ -80,7 +80,7 @@ function Section5() {
               whileInView={{
                 y: 1,
                 opacity: 1,
-                transition: { type: "spring", stiffness: 50, delay: 0.15 },
+                transition: { type: "spring", stiffness: 50, delay: 0.25 },
               }}
               viewport={{ once: true, amount: 0.8 }}
               className="text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] text-black font-light"
