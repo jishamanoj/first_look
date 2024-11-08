@@ -81,7 +81,7 @@ const Navbar = ({ fontcolor, percent }) => {
                     </Link>
 
                     <div className={`flex text-xl text-${fColor} items-center gap-10 mx-10`}>
-                        <Link href='/' className='cursor-pointer font-light'>
+                        <Link href='/about' className='cursor-pointer font-light'>
                             <p className="inline-block relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full">
                                 About
                             </p>

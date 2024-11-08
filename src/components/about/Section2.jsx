@@ -72,7 +72,7 @@ function Section2() {
          whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.25 } }}
          viewport={{ once: true, amount: 0.8 }}
         className="text-[14px] sm:text-[20px] lg:text-[26px] xl:text-[30px] text-black font-light sm:text-center pt-2 xl:pt-4 sm:px-10 md:px-[75px]">
-          We believe finding a relationship is a meaningful quest. While we can't find your perfect partner, we bridge the gap with global matches tailored to your preferences and offer secure, enhanced communication options to help you build meaningful connections.
+          We believe finding a relationship is a meaningful quest. While we can&apos;t find your perfect partner, we bridge the gap with global matches tailored to your preferences and offer secure, enhanced communication options to help you build meaningful connections.
         </motion.p>
 
         {/* Conditional rendering based on screen size */}
@@ -131,9 +131,9 @@ function Section2() {
           {value.title}
         </motion.h1>
         <motion.p
-         initial={{ y: "10vw", opacity: 0 }}
-         whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.25 } }}
-         viewport={{ once: true, amount: 0.8 }}
+        //  initial={{ y: "10vw", opacity: 0 }}
+        //  whileInView={{ y: 1, opacity: 1, transition: { type: "spring", stiffness: 50, delay: 0.25 } }}
+        //  viewport={{ once: true, amount: 0.8 }}
         className="text-[14px] sm:text-[18px] lg:text-[26px] xl:text-[30px] text-black font-light sm:text-center pe-8 sm:px-3 xl:px-8 pt-3 sm:pt-7">
           {value.description}
         </motion.p>
